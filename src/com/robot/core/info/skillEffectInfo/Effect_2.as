@@ -10,7 +10,7 @@ package com.robot.core.info.skillEffectInfo
 
 		override public function getInfo(array:Array = null) : String
 		{
-			return "对方体力小于50%的场合，该技能的[威力]提升100%";
+			return "对方体力小于50%时，该技能的[威力]提升100%";
 		}
 
 	}
